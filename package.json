@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@hazae41/aes.wasm",
-  "version": "1.0.9",
+  "version": "0.0.0",
   "description": "WebAssembly port of AES",
   "homepage": "https://github.com/hazae41/aes.wasm",
   "repository": "github:hazae41/aes.wasm",
