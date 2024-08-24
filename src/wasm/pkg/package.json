@@ -1,0 +1,24 @@
+{
+  "name": "aes_wasm",
+  "type": "module",
+  "collaborators": [
+    "hazae41 <4405263+hazae41@users.noreply.github.com>"
+  ],
+  "description": "WebAssembly port of AES",
+  "version": "1.0.0",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazae41/aes.wasm"
+  },
+  "files": [
+    "aes_wasm_bg.wasm",
+    "aes_wasm.js",
+    "aes_wasm.d.ts"
+  ],
+  "main": "aes_wasm.js",
+  "types": "aes_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
