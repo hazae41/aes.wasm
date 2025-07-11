@@ -17,7 +17,7 @@ debug = false
 opt-level = 3
 
 [dependencies]
-wasm-bindgen = { version = "0.2.93", default-features = false }
+wasm-bindgen = { version = "0.2.100", default-features = false }
 aes = { version = "0.8.4", default-features = false }
 ctr = { version = "0.9.2", default-features = false }
 memory_wasm = { path = "../../node_modules/@hazae41/memory.wasm/dist/wasm"}

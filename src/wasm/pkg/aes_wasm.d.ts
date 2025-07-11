@@ -1,21 +1,10 @@
 /* tslint:disable */
 /* eslint-disable */
-/**
-*/
 export class Aes128Ctr128BEKey {
   [Symbol.dispose](): void;
-/**
-* @param {Memory} key
-* @param {Memory} iv
-*/
   constructor(key: Memory, iv: Memory);
-/**
-* @param {Memory} memory
-*/
   apply_keystream(memory: Memory): void;
 }
-/**
-*/
 export class Memory {
   [Symbol.dispose](): void;
 /**
@@ -41,14 +30,16 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
   readonly __wbg_aes128ctr128bekey_free: (a: number, b: number) => void;
-  readonly aes128ctr128bekey_new: (a: number, b: number, c: number) => void;
+  readonly aes128ctr128bekey_new: (a: number, b: number) => [number, number, number];
   readonly aes128ctr128bekey_apply_keystream: (a: number, b: number) => void;
   readonly __wbg_memory_free: (a: number, b: number) => void;
   readonly memory_new: (a: number, b: number) => number;
   readonly memory_ptr: (a: number) => number;
   readonly memory_len: (a: number) => number;
-  readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
+  readonly __wbindgen_export_0: WebAssembly.Table;
+  readonly __externref_table_dealloc: (a: number) => void;
   readonly __wbindgen_malloc: (a: number, b: number) => number;
+  readonly __wbindgen_start: () => void;
 }
 
 export type SyncInitInput = BufferSource | WebAssembly.Module;
