@@ -2,7 +2,7 @@ use wasm_bindgen::prelude::*;
 
 use memory_wasm::Memory;
 
-use crate::rjse;
+use crate::libs::jse::rjse;
 
 #[wasm_bindgen]
 pub struct Aes128Ctr128BEKey {
